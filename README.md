@@ -1,5 +1,4 @@
 # file-write-svn-client
-svn-client is source(java) write in file repository
 
 Create a java file that is committed to svn as a file in the desired path.
 
@@ -10,12 +9,8 @@ SVNKit - (http://svnkit.com)
 
 #HOW TO USE
 ==========
-“`
+
+`
 SvnRepository svnRepo = new SvnRepository();
-svnRepo.init();
-SvnInfo svnInfo = new SvnInfo();
-svnInfo.setSvnUrl(svnUrl);
-svnInfo.setSvnId(svnId);
-svnInfo.setSvnPwd(svnPwd);
-svnRepo.getFile(svnInfoList, classQn, charset, writeFilePath);
-“`
+`
+

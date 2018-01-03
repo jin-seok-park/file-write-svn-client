@@ -9,7 +9,6 @@ SVNKit - (http://svnkit.com)
 
 
 ### HOW TO USE
-==========
 
 ```
 SvnRepository svnRepo = new SvnRepository();

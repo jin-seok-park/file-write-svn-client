@@ -12,22 +12,10 @@ SVNKit - (http://svnkit.com)
 ==========
 “`
 SvnRepository svnRepo = new SvnRepository();
-“`
-“`
 svnRepo.init();
-“`
-“`
 SvnInfo svnInfo = new SvnInfo();
-“`
-“`
 svnInfo.setSvnUrl(svnUrl);
-“`
-“`
 svnInfo.setSvnId(svnId);
-“`
-“`
 svnInfo.setSvnPwd(svnPwd);
-“`
-“`
 svnRepo.getFile(svnInfoList, classQn, charset, writeFilePath);
 “`

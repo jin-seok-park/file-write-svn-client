@@ -1,5 +1,4 @@
 # file-write-svn-client
-==========
 
 Create a java file that is committed to svn as a file in the desired path.
 
@@ -9,8 +8,7 @@ SVNKit - (http://svnkit.com)
 
 
 
-
-##HOW TO USE
+### HOW TO USE
 ==========
 
 ```

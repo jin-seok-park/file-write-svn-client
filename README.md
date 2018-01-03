@@ -12,5 +12,7 @@ SVNKit - (http://svnkit.com)
 
 `
 SvnRepository svnRepo = new SvnRepository();
-`
+'
+svnRepo.init();
+
 

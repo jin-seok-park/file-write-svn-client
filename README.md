@@ -6,10 +6,10 @@ SVNKit is a pure-Java reverse-engineering of the Subversion API. SVNKit implemen
 
 SVNKit - (http://svnkit.com)
 
-
+<br>
 
 ### HOW TO USE
-
+-------------------------------------------
 ```
 SvnRepository svnRepo = new SvnRepository();
 svnRepo.init();

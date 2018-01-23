@@ -11,13 +11,20 @@ SVNKit - (http://svnkit.com)
 ### HOW TO USE
 -------------------------------------------
 ```
-SvnRepository svnRepo = new SvnRepository();
-svnRepo.init();
+RepoMgr repoMgr = new RepoMgr();
+		
+repoMgr.getRepoFile("C:\\sonting\\cfg.properties");
+		
+//repoMgr.getRepoFileOne("C:\\sonting\\cfg.properties", "com.bxq.TestClass", "SYSID");
+```
 
-SvnInfo svnInfo = new SvnInfo();
-svnInfo.setSvnUrl(svnUrl);
-svnInfo.setSvnId(svnId);
-svnInfo.setSvnPwd(svnPwd);
-
-svnRepo.getFile(svnInfoList, classQn, charset, writeFilePath);
+### cfg.properties
+-------------------------------------------
+```
+JDBC_DRIVER=oracle.jdbc.OracleDriver
+JDBC_URL=jdbc:oracle:thin:@127.0.0.1:1521:orcl
+JDBC_USER=user
+JDBC_PWD=4zqdihIiH/eyXPH+vZ9BKQ==
+FILE_WRITE_PATH=C:\\sonting\\temp\\java
+CHARSET=UTF-8
 ```

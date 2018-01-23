@@ -2,9 +2,27 @@ package bxq.repo.dto;
 
 public class SvnInfo {
 
+	private String sysId;
+	private String svnUid;
 	private String svnUrl;
 	private String svnId;
 	private String svnPwd;
+
+	public String getSysId() {
+		return sysId;
+	}
+
+	public void setSysId(String sysId) {
+		this.sysId = sysId;
+	}
+
+	public String getSvnUid() {
+		return svnUid;
+	}
+
+	public void setSvnUid(String svnUid) {
+		this.svnUid = svnUid;
+	}
 
 	public String getSvnUrl() {
 		return svnUrl;
@@ -33,7 +51,11 @@ public class SvnInfo {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("SvnInfo [svnUrl=");
+		builder.append("SvnInfo [sysId=");
+		builder.append(sysId);
+		builder.append(", svnUid=");
+		builder.append(svnUid);
+		builder.append(", svnUrl=");
 		builder.append(svnUrl);
 		builder.append(", svnId=");
 		builder.append(svnId);
